@@ -1,0 +1,64 @@
+{
+	"books": [
+		{
+			"book_id": "1",
+			"title": "Em Busca do Tempo Perdido",
+			"author": "Marcel Proust",
+			"available": true
+		},
+		{
+			"book_id": "2",
+			"title": "Guerra e Paz",
+			"author": "Leo Tolstoy",
+			"available": true
+		},
+		{
+			"book_id": "3",
+			"title": "Hamlet",
+			"author": "William Shakespeare",
+			"available": false
+		},
+		{
+			"book_id": "4",
+			"title": "A Odisséia",
+			"author": "Homer",
+			"available": true
+		},
+		{
+			"book_id": "5",
+			"title": "Alice no País das Maravilhas",
+			"author": "Lewis Carroll",
+			"available": true
+		},
+		{
+			"book_id": "6",
+			"title": "A Arte da Guerra",
+			"author": "Sun Tzu",
+			"available": false
+		},
+		{
+			"book_id": "7",
+			"title": "As Viagens de Gulliver",
+			"author": "Jonathan Swift",
+			"available": true
+		},
+		{
+			"book_id": "8",
+			"title": "O Conde de Monte Cristo",
+			"author": "Alexandre Dumas",
+			"available": "true"
+		},
+		{
+			"book_id": "9",
+			"title": "1984",
+			"author": "George Orwell",
+			"available": "true"
+		},
+		{
+			"book_id": "10",
+			"title": "O Senhor dos Anéis",
+			"author": "J. R. R. Tolkien",
+			"available": "false"
+		}
+	]
+}
