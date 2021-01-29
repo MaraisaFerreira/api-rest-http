@@ -1,0 +1,16 @@
+{
+	"name": "api-rest-http",
+	"version": "1.0.0",
+	"description": "\"API HTTP+REST\"",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon"
+	},
+	"author": "Maraísa C. R. Ferreira",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^4.16.4",
+		"fs": "^0.0.1-security"
+	}
+}
