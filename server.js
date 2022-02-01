@@ -263,13 +263,11 @@ app.delete('/livros/:id', (req, res) => {
 	}
 });
 
-/* checa se o campo id está preenchido e se é um número inteiro */
 function isNumeric(str) {
 	let regex = /^[0-9]+$/;
 	return regex.test(str);
 }
 
-/* checa se o campo available está preenchido com true or false */
 function isBool(str) {
 	if (str) {
 		let value = str.toLowerCase();
@@ -279,12 +277,10 @@ function isBool(str) {
 	}
 }
 
-/** checa se o campo titulo está preenchido */
 function titleFilled(str) {
 	return str && str != '' ? true : false;
 }
 
-/** checa se o campo author esta preenchido */
 function authorFilled(str) {
 	return str && str != '' ? true : false;
 }
